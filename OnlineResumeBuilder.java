@@ -1,6 +1,5 @@
 # CodeClauseInternship_Online-Resume-Builder
 import java.util.Scanner;
-
 class Candidate {
     String name;
     String email;
@@ -8,8 +7,7 @@ class Candidate {
     String profession;
     String qualification;
     String skills;
-
-    Candidate(String name, String email, String phoneNumber, String profession, String qualification, String skills) {
+Candidate(String name, String email, String phoneNumber, String profession, String qualification, String skills) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
@@ -18,8 +16,7 @@ class Candidate {
         this.skills = skills;
     }
 }
-
-public class OnlineResumeBuilder {
+class OnlineResumeBuilder {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
